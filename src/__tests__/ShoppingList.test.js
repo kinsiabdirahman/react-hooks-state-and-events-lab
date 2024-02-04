@@ -22,7 +22,7 @@ test("displays only items that match the selected category", () => {
 
   fireEvent.change(screen.getByRole("combobox"), {
     target: { value: "Dairy" },
-  });
+  });a
 
   expect(container.querySelector(".Items").children).toHaveLength(2);
 
